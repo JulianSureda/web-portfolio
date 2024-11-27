@@ -1,5 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
-import { DropAnimation } from "./animations/animations";
+import { DropAnimation } from "./utils/animations";
 import NavBar from "./components/NavBar";
 import { motion } from "motion/react";
 
