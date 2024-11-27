@@ -25,8 +25,8 @@ function App() {
           </span>{" "}
           in AI
         </div>
+        <Button text="GitHub" specificConfig="m-auto bg-red-100"></Button>
       </motion.div>
-      <Button text="GitHub" positionConfig="m-auto"></Button>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 export interface ButtonProps {
   text: string;
-  positionConfig: string;
+  specificConfig: string;
 
   onClick?: () => void;
 }
