@@ -2,6 +2,7 @@
 import { DropAnimation } from "./utils/animations";
 import NavBar from "./components/NavBar";
 import { motion } from "motion/react";
+import Button from "./components/button";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           in AI
         </div>
       </motion.div>
+      <Button text="GitHub" positionConfig="m-auto"></Button>
     </div>
   );
 }
