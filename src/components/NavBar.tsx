@@ -15,7 +15,7 @@ function NavBar() {
           src="src\assets\logo.svg"
           alt="icon"
           draggable="false"
-          className="ml-5 h-14 w-14"
+          className="ml-5 h-16 w-16"
         />
         <motion.div
           className="text-white text-lg ml-5 select-none font-poppins"

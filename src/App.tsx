@@ -2,7 +2,6 @@
 import { DropAnimation } from "./utils/animations";
 import NavBar from "./components/NavBar";
 import { motion } from "motion/react";
-import Button from "./components/Button";
 
 function App() {
   return (
@@ -25,7 +24,36 @@ function App() {
           </span>{" "}
           in AI
         </div>
-        <Button text="GitHub" specificConfig="m-auto bg-red-100"></Button>
+        <div>
+          <motion.button
+            className="font-bold rounded-xl text-xl ml-[5%] mt-[5%] w-28 h-12 bg-[#37415143] text-[#ffffff] justify-center flex-col"
+            whileHover={{ color: "#47b9ff" }}
+            transition={{ type: "EaseOut", stiffness: 100 }}
+          >
+            GitHub
+          </motion.button>
+          <motion.button
+            className="font-bold rounded-xl text-xl ml-[2%] mt-[5%] w-28 h-12 bg-[#37415143] text-[#ffffff] justify-center flex-col"
+            whileHover={{ color: "#47b9ff" }}
+            transition={{ type: "EaseOut", stiffness: 100 }}
+          >
+            LinkedIn
+          </motion.button>
+          <motion.button
+            className="font-bold rounded-xl text-xl ml-[2%] mt-[5%] w-28 h-12 bg-[#37415143] text-[#ffffff] justify-center flex-col"
+            whileHover={{ color: "#47b9ff" }}
+            transition={{ type: "EaseOut", stiffness: 100 }}
+          >
+            Email
+          </motion.button>
+          <motion.button
+            className="font-bold rounded-xl text-xl ml-[2%] mt-[5%] w-28 h-12 bg-[#37415143] text-[#ffffff] justify-center flex-col"
+            whileHover={{ color: "#47b9ff" }}
+            transition={{ type: "EaseOut", stiffness: 100 }}
+          >
+            Resume
+          </motion.button>
+        </div>
       </motion.div>
     </div>
   );
