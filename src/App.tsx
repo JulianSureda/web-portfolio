@@ -2,7 +2,7 @@
 import { DropAnimation } from "./utils/animations";
 import NavBar from "./components/NavBar";
 import { motion } from "motion/react";
-import Button from "./components/button";
+import Button from "./components/Button";
 
 function App() {
   return (

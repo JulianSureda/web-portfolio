@@ -7,7 +7,7 @@ export default function Button({ text, onClick, specificConfig }: ButtonProps) {
     <div
       onClick={onClick}
       className={
-        "rounded-xl flex text-white font-poppins justify-center items-center font-bold ${positionConfig}"
+        "rounded-xl flex text-white font-poppins justify-center items-center font-bold ${specificConfig} select-none"
       }
     >
       {text}
