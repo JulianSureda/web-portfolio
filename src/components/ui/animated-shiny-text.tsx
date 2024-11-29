@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { CSSProperties, FC, ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
@@ -9,7 +8,7 @@ interface AnimatedShinyTextProps {
   shimmerWidth?: number;
 }
 
-const TextShine: FC<AnimatedShinyTextProps> = ({
+const AnimatedShinyText: FC<AnimatedShinyTextProps> = ({
   children,
   className,
   shimmerWidth = 100,
@@ -38,4 +37,4 @@ const TextShine: FC<AnimatedShinyTextProps> = ({
   );
 };
 
-export default TextShine;
+export default AnimatedShinyText;
