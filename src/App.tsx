@@ -2,7 +2,7 @@
 import { DropAnimation } from "./utils/animations";
 import NavBar from "./components/NavBar";
 import { motion } from "motion/react";
-import TextShine from "./components/ui/animated-shiny-text";
+import TextShine from "@/components/ui/animated-shiny-text";
 
 function App() {
   return (
@@ -14,8 +14,13 @@ function App() {
         animate="visible"
         exit="hidden"
       >
-        <div className="text-[7rem] font-poppins font-bold text-white mt-[5%] ml-[5%] select-none">
-          <TextShine>JULIAN SUREDA</TextShine>
+        <div>
+          <TextShine
+            shimmerWidth={100}
+            className="text-[7rem] font-poppins font-bold text-white mt-[5%] ml-[5%] select-none w-fit whitespace-nowrap"
+          >
+            JULIAN SUREDA
+          </TextShine>
         </div>
         <div className="text-3xl font-poppins text-gray-500 m-[0%] ml-[5%] select-none w-[55%] ">
           <span className="font-bold text-white">Software Developer</span>, and
